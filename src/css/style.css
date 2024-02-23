@@ -29,6 +29,10 @@ button {
 /* HEADER */
 header {
     background-color: #212121;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
 }
 
 .header_nav_ul {
@@ -56,6 +60,7 @@ header {
 }
 
 .header_info_bd {
+    margin: 50px 0 0 0;
     display: flex;
     align-items: center;
     height: 87px;
@@ -325,3 +330,57 @@ header {
 /* MOBILE */
 
 
+/* CHANGE */
+.change {
+    background: #000;
+    height: 530px;
+}
+
+.change h3 {
+    padding: 60px 0 0 0;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.change span {
+    padding: 5px 10px;
+    color: #070716;
+    background: #fff;
+}
+
+.change h4 {
+    margin: 27px 0 0 0;
+    padding: 0;
+    text-align: center;
+    color: #FFF;
+    font-size: 38px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.change h5 {
+    margin: 0;
+    padding: 0;
+    color: #FFF;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.change img {
+    display: block;
+    margin: 0 auto;
+    padding: 100px 0 0 0;
+}
+
+.change p {
+    text-align: center;
+    color: #222;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 24px;
+    padding: 0 0 140px 0;
+}
+/* CHANGE */
