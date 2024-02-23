@@ -4,6 +4,8 @@
     box-sizing: border-box;
     font-family: "Roboto", sans-serif;
     color: white;
+    margin: 0;
+    padding: 0;
 }
 
 a {
@@ -23,8 +25,6 @@ button {
     width: 1000px;
     margin: 0 auto;
 }
-
-
 
 /* HEADER */
 header {
@@ -170,7 +170,7 @@ header {
 }
 
 .advantages_content {
-    margin: 20px -55px 0 0;
+    margin: 0 -55px 0 0;
 }
 
 .advantages_content_block {
@@ -178,7 +178,7 @@ header {
     align-items: start;
     flex: 0 1 50%;
     padding: 0 55px 0 0;
-    margin: 0 0 26px 0;
+    margin: 30px 0 0 0;
 }
 
 .advantages_content_block_img {
@@ -212,3 +212,116 @@ header {
 }
 
 /* ADVANTAGER */
+
+
+/* MOBILE */
+.mobile h3,
+.mobile h4,
+.mobile p {
+    text-align: center;
+    color: black;
+}
+
+.mobile {
+    background: url('../img/mobile_bg.png') 50% 50%/cover no-repeat;
+    padding: 0 0 80px 0;
+}
+
+.mobile h3 {
+    margin: 50px 0 33px 0;
+    padding: 50px 0 0 0;
+}
+
+.mobile h3 span {
+    padding: 5px 10px;
+    background-color: black;
+    font-size: 11px;
+    text-transform: uppercase;
+}
+
+.mobile h4 {
+    margin: 0;
+    color: #222;
+    font-size: 38px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.mobile p {
+    margin: 0;
+    color: #222;
+    text-align: center;
+    font-size: 17px;
+}
+
+.mobile_row {
+    display: flex;
+    justify-content: space-between;
+    align-items: space-between;
+}
+
+.mobile_block {
+    height: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction:column;
+    flex: 0 0 30%;
+}
+
+.mobile_block_1 {
+    background: url('../img/cards/card_1.png') 50% 50%/cover no-repeat;
+    margin: 30px 0 0 0;
+}
+
+.mobile_block_2 {
+    background: url('../img/cards/card_2.png') 50% 50%/cover no-repeat;
+    margin: 30px 0 0 0;
+}
+
+.mobile_block_3 {
+    background: url('../img/cards/card_3.png') 50% 50%/cover no-repeat;
+    margin: 30px 0 0 0;
+}
+
+.mobile_block_4 {
+    background: url('../img/cards/card_4.png') 50% 50%/cover no-repeat;
+    margin: 30px 0 0 0;
+}
+
+.mobile_block_5 {
+    background: url('../img/cards/card_5.png') 50% 50%/cover no-repeat;
+    margin: 30px 0 0 0;
+}
+
+.mobile_block_6 {
+    background: url('../img/cards/card_6.png') 50% 50%/cover no-repeat;
+    margin: 30px 0 0 0;
+}
+
+.mobile_row_text {
+    margin: 40px 0 0 0;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #FFF;
+    font-weight: 400;
+}
+
+.mobile_row_link {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #000;
+}
+
+.mobile_row_link img {
+    display: block;
+    margin: 0 auto;
+    align-self: center;
+}
+/* MOBILE */
+
+
