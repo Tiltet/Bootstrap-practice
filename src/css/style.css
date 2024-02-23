@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+button {
+    height: 46px;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    border-radius: 6px;
+    padding: 0 30px;
+    text-transform: uppercase;
+    border-width: 0px;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+
+
+/* HEADER */
+header {
+    background-color: #212121;
+}
+
+.header_nav_ul {
+    margin: 0;
+    padding: 11px 0;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.header_nav_ul li {
+    display: flex;
+    align-items: center;
+}
+/* HEADER */
+
+
+
+/* HEADER INFO */
+.header_info {
+    background: url('../img/uber_bg.png') 0 0/cover no-repeat;
+    width: 100%;
+    padding: 0 0 180px 0;
+}
+
+.header_info_bd {
+    display: flex;
+    align-items: center;
+    height: 87px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.header_info_top_block_img {
+    display: block;
+}
+
+.header_info_top_block_title {
+    padding: 7px 0 0 0;
+    font-size: 13px;
+    color: white;
+    font-weight: 200;
+}
+
+.header_info_top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_info_top_block2 {
+    display: flex;
+    align-items: center;
+}
+
+.header_info_top_block_phoneTitle {
+    color: #FFF;
+    text-align: right;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.header_info_top_block_phoneNumber {
+    text-align: center;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+.header_info_top_block_button {
+    margin: 0 0 0 23px;
+}
+/* HEADER_INFO */
+
+
+
+/* HEADER_INFO_TEXT */
+.header_info_text {
+    margin: 0 auto;
+}
+
+.header_info_text h1,
+.header_info_text h2,
+.header_info_text p {
+    text-align: center;
+}
+
+.header_info_text h1 {
+    margin: 60px 0 0 0;
+    font-size: 60px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.header_info_text h2 {
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.header_info_text p {
+    padding: 5px 0;
+    font-size: 18px;
+}
+
+.header_info_text button {
+    display: block;
+    margin: 110px auto 0 auto;
+}
+/* HEADER_INFO_TEXT */
